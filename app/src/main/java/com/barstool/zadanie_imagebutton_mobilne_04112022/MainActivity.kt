@@ -29,38 +29,38 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(baseContext, "kot", Toast.LENGTH_SHORT).show()
         }
         przycisk2.setOnClickListener {
-            if (przycisk1.alpha.equals(0.5F)){
-                przycisk1.alpha = 1F
+            if (przycisk2.alpha.equals(0.5F)){
+                przycisk2.alpha = 1F
             }
             else{
-                przycisk1.alpha = 0.5F
+                przycisk2.alpha = 0.5F
             }
             Toast.makeText(baseContext, "krowa", Toast.LENGTH_SHORT).show()
         }
-        przycisk1.setOnClickListener {
-            if (przycisk1.alpha.equals(0.5F)){
-                przycisk1.alpha = 1F
+        przycisk3.setOnClickListener {
+            if (przycisk3.alpha.equals(0.5F)){
+                przycisk3.alpha = 1F
             }
             else{
-                przycisk1.alpha = 0.5F
+                przycisk3.alpha = 0.5F
             }
             Toast.makeText(baseContext, "pies", Toast.LENGTH_SHORT).show()
         }
-        przycisk1.setOnClickListener {
-            if (przycisk1.alpha.equals(0.5F)){
-                przycisk1.alpha = 1F
+        przycisk4.setOnClickListener {
+            if (przycisk4.alpha.equals(0.5F)){
+                przycisk4.alpha = 1F
             }
             else{
-                przycisk1.alpha = 0.5F
+                przycisk4.alpha = 0.5F
             }
             Toast.makeText(baseContext, "strus", Toast.LENGTH_SHORT).show()
         }
         przycisk5.setOnClickListener {
-            if (przycisk1.alpha.equals(0.5F)){
-                przycisk1.alpha = 1F
+            if (przycisk5.alpha.equals(0.5F)){
+                przycisk5.alpha = 1F
             }
             else{
-                przycisk1.alpha = 0.5F
+                przycisk5.alpha = 0.5F
             }
             Toast.makeText(baseContext, "tygrys", Toast.LENGTH_SHORT).show()
         }
