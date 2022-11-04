@@ -11,58 +11,64 @@
         android:layout_width="127dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/kot"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/kot" />
 
     <ImageButton
         android:id="@+id/obrazek2"
         android:layout_width="127dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/krowa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/krowa" />
 
     <ImageButton
         android:id="@+id/obrazek3"
         android:layout_width="127dp"
         android:layout_height="130dp"
         android:layout_marginTop="180dp"
+        android:src="@drawable/pies"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/pies" />
 
     <ImageButton
         android:id="@+id/obrazek4"
         android:layout_width="127dp"
         android:layout_height="130dp"
         android:layout_marginTop="180dp"
+        android:src="@drawable/strus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/strus" />
 
     <ImageButton
         android:id="@+id/obrazek5"
         android:layout_width="127dp"
         android:layout_height="130dp"
         android:layout_marginTop="332dp"
+        android:src="@drawable/tygrys"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/tygrys" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
